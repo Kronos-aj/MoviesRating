@@ -8,12 +8,14 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     
+    
 }
  img{
     width: 100%;
     max-width: 400px;
     height: 90%;
  }  
+
 
 .container{
     display: grid;
@@ -70,6 +72,7 @@ h1{
 }
 
 
+
 .btn-grad {
     background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
    
@@ -90,4 +93,21 @@ h1{
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
+ }
+
+
+ .movie{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+
+ }
+ .movie-head{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: underline;
+     color: black;
+ }
+
+ a{
+     text-decoration: none;
  }
